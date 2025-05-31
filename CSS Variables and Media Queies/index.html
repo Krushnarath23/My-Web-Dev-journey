@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables and Media Queries</title>
+    <style>
+        :root {
+            --color : skyblue;
+        }
+        body{
+            background-color: rgb(207, 181, 223);
+            font-family: Arial, sans-serif;
+        }
+        .nav{
+            background-color: var(--color);  
+            
+        }
+        ul {  
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+            margin : 0px;
+            margin-bottom: 10px;
+         }
+
+        li {
+            padding: 10px;
+            border-radius: 5px;
+            margin: 5px;
+            cursor: pointer; 
+            color: black;  
+         }
+
+        li:hover
+        {
+                background-color: lightcoral;
+        }
+        
+        .container{
+            background-color: rgba(237, 133, 133, 0.544);
+            padding: 20px;
+            margin: 2px;
+        }
+            
+    </style>
+</head>
+<body>
+    <div class = "nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class = "container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, adipisci illum tempora id corporis, expedita deleniti cumque consequatur vel incidunt odit, illo dignissimos iste consectetur laboriosam asperiores autem eum nihil eos aut totam mollitia. Dicta, inventore rem. Maiores doloremque commodi aperiam corrupti, facere dolorem deleniti unde sapiente voluptatum blanditiis dolores iure nam provident soluta ex dolor laudantium reprehenderit minus accusantium. Officia nisi pariatur minus? Eos nam quas atque molestias explicabo adipisci, corrupti ad earum suscipit, minus eum?
+    </div>
+</body>
+</html>

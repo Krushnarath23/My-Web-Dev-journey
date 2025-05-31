@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforms and Transitions CSS</title>
+    <style>
+        .box{
+            width : 100px;
+            height : 100px;
+            background-color : beige;
+           
+            box-sizing: border-box ;
+            
+            border : 2px solid black;
+            border-radius: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform : rotate(360deg); /* 0.75 turn = 270 degree */ 
+            transform : scale3d(1.5); 
+            transform : translateX(100px);
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-name: boxAnimation;
+            animation-timing-function: ease-in-out;
+
+        }
+        .container{
+            width : 500px;
+            height : 500px;
+            background-color : lightblue;
+            border: 3px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class = "container">
+    <div class="box">
+        <h3>Box</h3>
+    </div>
+    </div>
+</body>
+</html>

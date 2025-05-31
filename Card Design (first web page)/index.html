@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        body {
+            background-color: purple;
+        }
+        /*.card {
+            background-color: rgb(237, 218, 16);
+            width: 480px;
+            height: 590px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            align-items: center;
+            margin: auto;
+            margin-top: 100px;
+
+        }*/
+        .card {
+            background-color: yellow;
+            box-shadow: 12px 10px 8px rgb(11 5 5 / 42%);
+            align-items: center; /* center horizontally */
+            padding-top: 2px;   /* spacing from the top if needed */
+            border: 1px solid #ccc;
+            width: 400px;
+            height: 590px;
+            margin : auto;
+             margin-top: 100px; 
+             margin-bottom: 100px;  
+            border-radius: 10px; 
+              
+        }
+
+
+
+        .image {
+            padding: 11px;
+            align-items: center;       /* adjust as needed */
+            height: auto;
+            justify-items: center;
+
+        }
+        .image img {
+            border-radius: 7px;
+        }
+        /*
+        .capsules {
+            margin-top: 10px;
+            padding : 0 140px;
+        }
+        .capsules span{
+            border: 2px solid black;
+            padding : 4px;
+            border-radius: 5px;
+            box-shadow: ;
+        }
+        */
+        .box1 {
+            border: 2px solid black;
+            /*display: inlineblock;*/
+            padding: 5px;
+            display: inline-flex;
+            margin: 10px;
+            margin-left: 30px;
+            justify-content: center;
+            background-color: rgb(129, 193, 241);
+             box-shadow: 5px 3px 2px 1px #888888;
+            font-size: 14px;
+        }
+        .box2 {
+            border: 2px solid rgb(6, 7, 7);
+            /*display: inline-block;*/
+            padding: 5px;
+            background-color: rgb(223, 91, 223);
+            margin : 1px;
+            display: inline-flex;
+            justify-content: center;
+            box-shadow: 5px 3px 2px 1px #a49b9b;
+            font-size: 14px;
+            color:black;
+            position: relative;
+            left: 220px;
+        }
+        .title {
+            margin: 10px 10px 10px 10px;
+            padding: 5px;
+            position : relative;
+            left: 0px;
+        }
+        .content {   
+            padding: 10px;
+            margin-left: 2%;
+            margin-right: 2%;
+            font-size: 14px;
+        }     
+        .button {
+            text-align: center;
+            margin-top: 10px;
+        }   
+        .button button {
+            padding: 5px 10px;
+            border-radius: 15px;
+            background-color: rgb(218, 35, 218);
+            border: none;
+            color: rgb(238, 246, 9);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="380" height="250" src=https://i.ytimg.com/vi/XHryVW3Z6Po/maxresdefault.jpg alt="Card Image">
+
+        </div>
+       
+       <!--<div class = "capsules">
+            <span>Lakers</span>
+            <span>Dallas</span>
+            
+        </div>--> 
+       <div class="box1">Dallas</div>
+       <div class="box2">Lakers</div>
+
+        <div class = "title">
+            <h1>"Luka Magic"</h1>
+        </div>
+        <div class = "content"> 
+             <p>Luka Dončić is often referred to as "Luka Magic" due to his impressive and often unpredictable skill on the basketball court. This nickname stems from his ability to perform seemingly impossible shots, make incredible passes, and create opportunities for his teammates with seemingly effortless movements. Luka's "magic" is not just about flashy plays, but also his ability to elevate his game to an almost superhuman level, making him a captivating player to watch</p>
+    </div>
+    <div class="button">
+        <button>Read More</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
